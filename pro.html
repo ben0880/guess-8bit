@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="pro.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+    <script src="pro.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 style="font-stretch: wider;">GUESS 8BIT</h1>
+        <p style="font-family: VT323; font-size: x-large;font-style: normal; color: #C0D7FB;">Guess a number between 1 and 100</p>
+        <input style="font-family: VT323;font-size: medium;" type="number" id="userGuess" min="1" max="100" placeholder="Enter your guess">
+        <button onclick="checkGuess()">Submit</button>
+        <p id="message"></p>
+        <button onclick="restartGame()">Restart Game</button>
+    </div>
+</body>
+</html>

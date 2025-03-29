@@ -1,0 +1,52 @@
+body {
+    font-family: VT323;
+    color: #000000;
+    -webkit-font-smoothing : none;
+    text-align: center;
+    background-image: url(njD8R4U.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+
+
+.container {
+    position: fixed;
+    width: 500px;
+    height: 250px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    background: #6555e7;
+    padding: 50px;
+    border-radius: 4px;
+    box-shadow: 0 0 150px #3e5dd2;
+}
+
+input {
+    width: 60%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+button {
+    font-family: VT323;
+    font-size: medium;
+    padding: 8px 15px;
+    background: #3e5dd2;
+    color: #c0d7fb;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff4500;
+}
+
+#message {
+    font-weight: normal;
+    margin-top: 10px;
+    font-size: larger;
+}

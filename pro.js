@@ -11,7 +11,7 @@ function checkGuess() {
     }
 
     if (userGuess === randomNumber) {
-        message.textContent = "BONJOUR! You got it right.";
+        message.textContent = "BONJOUR! You got it right. Click on Restart to start again.";
         message.style.color = "#66FF00";
     } else if (userGuess < randomNumber) {
         message.textContent = "Too low, TRY again.";
